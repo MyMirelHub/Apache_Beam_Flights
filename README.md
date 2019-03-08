@@ -173,6 +173,7 @@ class CollectFlightsDay(beam.DoFn):
 ## Sample Outputs 
 
 ```
-[[u'85', u'', u'5.1']],[([u'01/08/2006', u'YV', u'20378', u'CLT', u'NC', u'IAH', u'AL', u'1256', u'-3', u'1840', u'1', u'1256', u'1256', u'-86.39', u'32.3', u'-86.39', u'32.3', u'AL to NC'], 'h8wux10ju8c8', '10000000000', u'IAHCLT')]
-[[u'35', u'', u'18.6']],[([u'05/04/2003', u'EV', u'20366', u'SHV', u'LA', u'MOB', u'AL', u'1830', u'-10', u'2018', u'30', u'2018', u'1830', u'-88.24', u'30.69', u'-88.24', u'30.69', u'AL to LA'], 'h8mf427u8zf8', '10000000000', u'MOBSHV')]
+temp	snow	wind	Date	Airline	Airline_code	Arrival_airport	Arrival_state	Departure_Airport	Departure_State	Departure_actual	Departure_delay	Arrival_actual	Arrival_delay	Arrival_schedule	Departure_schedule	DC_Longitude	DC_Latitude	Longitude	Latitude	Route	geohash	Path_order	DepArr
+[[u'85'	 u''	 u'5.1']]	[([u'01/08/2006'	 u'YV'	 u'20378'	 u'CLT'	 u'NC'	 u'IAH'	 u'AL'	 u'1256'	 u'-3'	 u'1840'	 u'1'	 u'1256'	 u'1256'	 u'-86.39'	 u'32.3'	 u'-86.39'	 u'32.3'	 u'AL to NC']	 'h8wux10ju8c8'	 '10000000000'	 u'IAHCLT')]
+[[u'35'	 u''	 u'18.6']]	[([u'05/04/2003'	 u'EV'	 u'20366'	 u'SHV'	 u'LA'	 u'MOB'	 u'AL'	 u'1830'	 u'-10'	 u'2018'	 u'30'	 u'2018'	 u'1830'	 u'-88.24'	 u'30.69'	 u'-88.24'	 u'30.69'	 u'AL to LA']	 'h8mf427u8zf8'	 '10000000000'	 u'MOBSHV')]
 ```
